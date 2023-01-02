@@ -8,4 +8,11 @@ public class Carro {
     boolean turbo = false;
     boolean partida = false;
 
+    void status(){
+        System.out.println(this.marca + " " + this.modelo);
+        System.out.println(this.cor);
+        System.out.println("Aro "+ this.aro);
+        System.out.println("Motor " + this.motor);
+    }
+
 }
